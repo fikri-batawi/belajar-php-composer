@@ -1,0 +1,20 @@
+{
+    "name": "muhammadfikri/belajar-composer",
+    "description": "Belajar composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Muhammad Fikri",
+            "email": "fikri2347@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MuhammadFikri\\" : "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog" : "2.2.0",
+        "muhammadfikri/belajar-php-membuat-library" : "2.0.0"
+    }
+}
